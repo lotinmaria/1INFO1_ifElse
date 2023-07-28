@@ -5,13 +5,20 @@
     Peça para o aluno informar quanto que gasta diariamente nas refeições. Peça também para informar quantos dias da semana ele faz as refeições na universidade. Calcule e apresente quanto que o aluno gasta por mês com alimentação na universidade.
     Se o aluno gastar mais do que recebe de auxílio estudantil, informe que ele está gastando muito e precisa rever os seus gastos. Caso contrário, informe que o custo da alimentação está dentro do esperado.
     */
-    
+
     //Entrada
-
-
+    const gasto = Number(prompt("quanto que você gasta diariamente nas refeições ? "))
+    const dias = Number(prompt(" quantos dias na semana você faz suas refeições na universidade ? "))
+    const semana = Number(prompt("qaunatas semanas você tem no mês ? "))
     //Processamento
+    if (gasto * dias > 500)
+        alert("está gas tandomuito semanalmente e precisa rever os seus gastos")
+    else if (gasto * dias < 500)
+        alert("o custo da alimentação semanal está dentro do esperado.")
+    if (gasto * dias <= 500)
+        alert("o custo da alimentação está dentro do esperado.")
 
-
+    else ("está gastando muito e precisa rever os seus gastos")
     //Saída
 
 </script>

@@ -11,9 +11,29 @@
     */
     
     //Entrada
-
+const salário = Number (prompt("Informe seu salário líquido"));
+const transporte = Number(prompt("Deseja receber auxílio transporte ?responda com s para sim "))
 
     //Processamento
+if (transporte == "s" ){
+   if (salário>=60000){
+    alert (`o seu salario sera ${salário*0.64}`)
+   } else if (salário>=3.500){
+    alert (`o seu salario sera ${salário*0.74}`)
+   } else if (salário>=2.000)
+   alert (`o seu salario sera ${salário*0.84} `)
+   } else if (salário*0.94) {
+   alert (`o seu salrio sera ${salário*0.94}`)
+}
+else if (salário>=60000){
+    alert (`o seu salario sera ${salário*0.7}`)
+   } else if (salário>=3.500){
+    alert (`o seu salario sera ${salário*0.8}`)
+   } else if (salário>=2.000) {
+   alert (`o seu salario sera ${salário*0.9} `)
+   } else if (salário*0.94) {
+   alert (`o seu salrio sera ${salário}`)
+}
 
 
     //Saída
